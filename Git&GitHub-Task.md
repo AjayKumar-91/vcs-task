@@ -69,6 +69,9 @@ git commit -m "Hotfix in deploy script"
 **Merge feature branch into main:**
 git merge feature-login
 
+<img width="1600" height="868" alt="image" src="https://github.com/user-attachments/assets/01a8c6c5-ee5b-469f-992d-ce9349199b6e" />
+
+
 **If conflict happens:**
 git status
 # Fix file manually
@@ -79,6 +82,10 @@ git commit -m "Resolve merge conflict"
 
 **Create another branch:**
 git checkout -b feature-ui
+
+
+<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/d2c09d7c-cba8-415f-9f8a-a9e9d36fc9eb" />
+
 
 **Make change:**
 echo "echo UI update" >> app.sh
@@ -93,6 +100,10 @@ git rebase main
 # Fix conflict
 git add app.sh
 git rebase --continue
+
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/7a351e1e-52d7-40c7-98bf-23e1e81ecbf3" />
+
+
 
 **Push rebased branch:**
 git checkout main
